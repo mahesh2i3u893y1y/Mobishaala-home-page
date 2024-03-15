@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main-container{
+    background-image:url("https://res.cloudinary.com/dj4bfvysr/image/upload/v1710419474/b_adv5zj.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:25px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+span{
+    color:#DDCE6B;
+    font-family: "Roboto";
+}
+.content{
+    color:#F8FBFA;
+    font-size:20px;
+    font-weight:600;
+    font-family:"Roboto";
+
+}
+
+.buttons-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10px;
+}
+.button{
+    background-color: #d31537;
+    height:35px;
+    border:none;
+    padding:8px 15px 10px 15px;
+    border-radius:4px;
+    font-size:14px;
+    color:white;
+    font-weight:500;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+
+.para{
+    color:white;
+    margin:15px;
+    font-family: "Roboto";
+}
+
+.whatsup-button{
+    background-color:#39983a;
+    height:35px;
+    border:none;
+    padding:10px 15px 10px 15px;
+    border-radius:4px;
+    font-size:14px;
+    color:white;
+    font-weight:500;
+    margin-top:15px;
+    display:flex;
+    gap:5px;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+
+.mobishaala{
+    background-color:#d31537;
+    padding:25px;
+
+}
+
+.heading{
+    color:white;
+    font-size:27px;
+    margin-bottom:10px;
+    font-family: "Roboto";
+
+}
+.sub-heading{
+    color:white;
+    font-size:19px;
+    font-weight:500;
+    margin-bottom:10px;
+    font-family: "Roboto";
+}
+.sub-para{
+    color:white;
+    font-size:14px;
+    margin-bottom:10px;
+    font-family: "Roboto";
+}
+
+.office{
+    color:white;
+    font-size:16px;
+    font-weight:400;
+    font-family: "Roboto";
+
+}
+
+.links{
+    color:white;
+    font-size:14px;
+    list-style-type:none;
+    font-family: "Roboto";
+}
+li{
+    margin-bottom:5px;
+}
+
+.video{
+    margin-top:10px;
+    border-radius:4px;
+    width:80%;
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    object-fit: cover;
+}
+

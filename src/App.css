@@ -1,0 +1,20 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:991px){
+  .desktop{
+    display:none;
+  }
+}
+
+@media screen and (min-width:992px ){
+  .mobile{
+    display:none;
+  }
+}

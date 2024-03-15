@@ -1,0 +1,89 @@
+.desktop-container{
+    background-image:url("https://res.cloudinary.com/dj4bfvysr/image/upload/v1710419474/b_adv5zj.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:25px;
+    display:flex;
+    height:100vh;
+}
+
+.head{
+    color:white;
+    font-size:34px;
+    margin-bottom:10px;
+    font-family: "Roboto";
+}
+.content-ele{
+    color:#F8FBFA;
+    font-size:23px;
+    font-weight:600;
+    margin-bottom:20px;
+    font-family: "Roboto";
+}
+
+.span-ele{
+    color:#DDCE6B;
+    font-family: "Roboto";
+}
+.properties{
+    color:white;
+    font-size:15px;
+    display:flex;
+    gap:10px;
+    margin-bottom:5px;
+    font-family: "Roboto";
+}
+
+.button-ele{
+    background-color: #d31537;
+    height:35px;
+    border:none;
+    padding:8px 15px 10px 15px;
+    border-radius:4px;
+    font-size:14px;
+    color:white;
+    font-weight:500;
+    margin-bottom:20px;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+.para-ele{
+    color:white;
+    font-size:16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-family: "Roboto";
+}
+
+.button-whats{
+    background-color:#39983a;
+    height:35px;
+    border:none;
+    padding:10px 15px 10px 15px;
+    border-radius:4px;
+    font-size:14px;
+    color:white;
+    font-weight:500;
+    margin-top:15px;
+    display:flex;
+    gap:5px;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+
+.sub-container{    
+    margin-top:30px;
+    padding-left:25px;
+}
+
+.viedo-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    margin-right:20px;
+}
+.viedo-ele{
+    margin-bottom:10px;
+}
